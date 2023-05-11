@@ -80,6 +80,8 @@ body {
     color: rgb(255, 255, 255);
     z-index: 5;
     transition: 0.5s ease;
+    /* list-style: none;
+    text-decoration: none; */
 }
 
 .button i:nth-child(2) {
@@ -103,4 +105,17 @@ body {
 
 .deactive {
     display: None !important;
+}
+
+ul li {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+
+}
+
+.nav-bars ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
