@@ -29,12 +29,12 @@ body {
 .main-content {
     flex-direction: column;
     /* position: abso; */
-    background-color: blueviolet;
+    background-color: #513f74;
     /* transform: rotate(-14deg); */
     transform-origin: top left;
     z-index: 5;
     padding-inline: 20%;
-    color: wheat;
+    color: #ffffff;
     transition: 0.5s ease;
 }
 
@@ -63,7 +63,7 @@ body {
     left: 0;
     top: 0;
 
-    background-color: aliceblue;
+    background-color: white;
     width: 100px;
     height: 100px;
     border-radius: 0 0 100px 0;
