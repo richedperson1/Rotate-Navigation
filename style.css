@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+
+
+}
+
+body {
+    background-color: black;
+}
+
+.pad-10 {
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center-xy {
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+
+}
+
+.main-content {
+    flex-direction: column;
+    /* position: abso; */
+    background-color: blueviolet;
+    /* transform: rotate(-14deg); */
+    transform-origin: top left;
+    z-index: 5;
+    padding-inline: 20%;
+    color: wheat;
+    transition: 0.5s ease;
+}
+
+.intro {
+    padding-top: 20px;
+
+}
+
+.nav-bars {
+    color: antiquewhite;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 15%;
+    z-index: -1;
+    transform-origin: bottom left;
+    transition: 0.5s ease;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 100px 0;
+    background-color: #000000;
+    z-index: 2;
+    transition: 1s ease;
+}
+
+.button i {
+    position: absolute;
+    left: 24%;
+    font-size: xx-large;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    z-index: 5;
+    transition: 0.5s ease;
+}
+
+.button i:nth-child(2) {
+    font-size: xxx-large;
+}
+
+.image-cls {
+    margin-top: 20px;
+    border-radius: 30px;
+    height: 500px;
+}
+
+.rotate-x {
+    transform: rotate(-14deg);
+}
+
+.rotate-x-navbar {
+    transform: rotate(-14deg);
+    z-index: 2;
+}
+
+.deactive {
+    display: None !important;
+}
